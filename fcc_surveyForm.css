@@ -1,0 +1,29 @@
+body{
+  /*background-color: cornflowerblue;*/
+  background-color: rgb(15, 54, 101);
+  font-family: calibri;
+}
+}
+:invalid{
+background-color: red;
+}
+#form{
+background-color:;
+display:flex;
+justify-content: center;
+align-items: center;
+font-family: calibri;
+color: wheat;
+}
+#title{
+  color: whitesmoke;
+  text-align: center;
+}
+#description{
+  text-align: center;
+ color: white;
+}
+#survey-form{
+  font-family: calibri;
+  color: white;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FCC Survey Form</title>
+</head>
+<body>
+<script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+
+<h1 id="title">
+Survey Form
+</h1>
+<!--Number with a range and invalid if outside this rane-->
+  <p id="description">
+How can FreeCodeCamp be improved? Fill out this survey and provide feedback.
+  </p>
+<!----------FORM------------------------->
+<div id="form">
+  <form id="survey-form">
+<!--------------NAME---------------------->
+  <label for="name" id="name-label">
+  <br>Name:
+  </label>
+      <input id="name" type="name" name="name" value="" placeholder="first and last name" required autofocus>
+    <br>
+<!----------EMAIL------------------------->
+  <label for="email" id="email-label">
+  <br>Email
+    </label>
+   <input id="email" type="email" name= "email" value="" placeholder="email@provider.com" required>
+<br>
+<!--------------NUMBER------------------>
+  <br>What is your age?
+    <label for="number" id="number-label">
+    </label>
+    <input type="number" name="number" min=0 max=100>Years<br>
+<!---------------DROP DOWN------------->
+    <br>Experience
+    <label for="experience" id="label-experience">
+    </label>
+      <select id="experience" name="experience">
+        <option value=""></option>
+        <option value="newbie">newbie</option>
+        <option value="some experience">some experience</option>
+        <option value="very experienced">very experienced</option>
+        </select>
+        <br>
+<!-----------RADIO BUTTON------------->
+  <br>Gender:<br>
+    <label for="gender" id="gender-label">
+    </label>
+      <input type="radio" name="gender" value="male">Male<br>
+      <input type="radio" name="gender" value="female">Female<br>
+<!------------CHECK BOXES-------------->
+  <br>What FCC topics have you used? Check all that apply.<br>
+    <label for="topics" id="topics-label">
+      </label>
+      <input type="checkbox" name="topics" value="CSS">HTML<br>
+      <input type="checkbox" name="topics" value="JavaScript">JavaScript<br>
+      <input type="checkbox" name="topics" value="Bootstrap">Bootstrap<br>
+      <input type="checkbox" name="topics" value="jQuery">jQuery<br>
+      <input type="checkbox" name="topics" value="React">React<br>
+      <input type="checkbox" name="topics" value="Other">Other<br>
+    <br>
+<!--------------RADIO BUTTON------------>
+  <br>How would you rate your overall experience using freeCodeCamp?<br>
+    <label for="rating" id="rating-label">
+      <input type="radio" name="rating" value = "excellent">Excellent<br>
+    </label>
+      <input type="radio" name="rating" value = "good">Good<br>
+      <input type="radio" name="rating" value = "Fair">Fair<br>  
+      <input type="radio" name="rating" value = "Poor">Needs Improvement<br>     
+ <br> 
+ 
+ <!------------TEXT AREA--------------->
+  <br>What areas would you sugges for improvement? <br>
+    <label for="comments" id="comments-label">
+ <textarea cols="50" rows="10"></textarea>
+    </label> 
+ <br>
+<!--------------SUBMIT--------------->
+  <br>
+    <label for="submit" id="submit-label">
+      <input type="submit">
+      </label>
+    <br>
+  </form>
+  </div>
+
+   </body>
+</html>

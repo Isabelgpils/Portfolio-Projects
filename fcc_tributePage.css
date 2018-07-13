@@ -1,0 +1,39 @@
+body
+ {margin-top: 20px;
+  background-color:#3e4444;
+ font-family:palatino  linotype;
+   color:white;}
+a
+{color:#ffef96;}
+h6
+{font-family:calibri;
+  font-size:18px;
+  margin:auto;
+}
+blockquote
+{color:silver;
+ font-family:georgia;}
+.media, .wikilink
+{background-color:#838060;
+ padding:10px;
+  margin-top:15px;
+ border:1px solid white;
+}
+.media-body
+{margin-left:10px;
+ margin-top:10px;
+ font-size: 14px}
+.wikilink
+{background-color:#838060;
+ margin-top:100px;
+  padding:40px;
+ border:1px solid white;
+  height: 200px;
+  width: 200px;
+}
+footer
+{background-color:#92B558;
+font-family:georgia;
+  font-size:16px;
+  padding:25px;
+  color:#41332F;}
