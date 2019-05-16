@@ -5,31 +5,37 @@
   color:white;
   margin-left:10px;
 }
+
 body {
   background-color: #19394C;
   margin-top: 15px;
 }
+
 .jumbotron {
   background-color:#012C05;/*#90BF3F;*/
     color:white;
-  
 }
+
 #text {
   color:white;
   font-family:calibri;
   font-size:24px;
 }
+
 #author{
  font-family:Pacifico;
 }
+
 #new-quote {
  font-family:calibri;
     color:white;
  }
+
 #tweet-quote {
   color:white;
   font-family:calibri;
 }
+
 .footer {
   color:white;
   text-align: center; 
