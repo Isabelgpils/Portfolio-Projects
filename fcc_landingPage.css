@@ -16,6 +16,7 @@ background: linear-gradient(rgba(35, 40, 40, 0.5), rgba(199,21,133, 0.5)) no-rep
   margin: 0;
  top:0;
 }
+
 h1 {
   font-size: 52px;
   font-family: cabin sketch, cursive;
@@ -24,6 +25,7 @@ h1 {
   color: #000204;
   color: rgba(3, 14, 67, 0.93);
 }
+
 #store{
   display: flex;
   flex-direction:column;
@@ -32,13 +34,16 @@ h1 {
   color:rgba(9, 20, 20, 0.8);
   margin-left: 3px;
 }
+
 #header-img{
   margin-left: 18px;
 }
+
 #nav-bar{
   display: flex;
   justify-content: end;
 }
+
 .nav-link {
   display: inline;
   text-align: center;
@@ -55,7 +60,6 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   font-family:tenor sans;
-    
 }
 
 #silkfloss, p{
@@ -65,8 +69,8 @@ h1 {
   padding: 30 px;
   margin-top: 50px;
   padding: 50px;
-
 }
+
 #yarn, p{
   display: flex;
   justify-content:center;
@@ -74,6 +78,7 @@ h1 {
   margin-top: 100px;
   padding: 50px;
 }
+
 #cottonfloss, p{
   display: flex;
   flex-direction: row;
@@ -82,14 +87,17 @@ h1 {
   margin-top: 100px;
   padding: 50px;
 }
+
 img{
   border: 2px solid whitesmoke;
 }
+
 #video {
   display: flex;
   flex-direction: row;
   justify-content: end;
 }
+
 #form {
     display flex;
   flex-direction: row;
@@ -97,6 +105,7 @@ img{
   font-family: nova script;
   padding: 50px
 }
+
 footer {
   display:flex;
   flex-direction: row;
