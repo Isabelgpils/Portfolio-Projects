@@ -13,7 +13,7 @@ body {
 
 .jumbotron {
   background-color:#012C05;/*#90BF3F;*/
-    color:white;
+  color:white;
 }
 
 #text {
@@ -28,8 +28,8 @@ body {
 
 #new-quote {
  font-family:calibri;
-    color:white;
- }
+ color:white;
+}
 
 #tweet-quote {
   color:white;
